@@ -1,13 +1,13 @@
 import Foundation
 
-// Create a simple shopping cart system. You must manage a list of items
-// in the cart, calculate the total price, and apply a discount.
+// Create a simple shopping cart system. You must manage a list of
+// items in the cart, calculate the total price, and apply a discount.
 
 // Requirements:
 // - Use optionals to handle the discount code (it can be nil).
 // - Use if-else or guard statements to validate the discount code.
-// - Use loops or higher-order functions (like map, reduce) for calculating
-//   the total price.
+// - Use loops or higher-order functions (like map, reduce) for
+//   calculating the total price.
 // - Properly format the output.
 
 // Helpful references:
@@ -35,8 +35,8 @@ import Foundation
 //    - items (an array of Item)
 //    - A function addItem(item: Item) to add an item to the cart.
 //    - A function totalPrice(discountCode: String?) -> Double that
-//      calculates the total price. If a valid discount code "DISCOUNT10"
-//      is provided, apply a 10% discount to the total.
+//      calculates the total price. If a valid discount code
+//      "DISCOUNT10" is provided, apply a 10% discount to the total.
 //    - BONUS: Round down the result displayed to 2 decimal places.
 
 // <fill in your code here>
