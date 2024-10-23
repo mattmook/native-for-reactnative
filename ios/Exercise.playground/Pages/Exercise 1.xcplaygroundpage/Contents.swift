@@ -1,4 +1,4 @@
-import UIKit
+import Foundation
 
 // Create a simple shopping cart system. You must manage a list of items
 // in the cart, calculate the total price, and apply a discount.
