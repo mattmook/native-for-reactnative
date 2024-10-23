@@ -33,11 +33,15 @@ import Foundation
 // 2. Cart structure
 //    Create a struct called Cart with the following:
 //    - items (an array of Item)
-//    - A function addItem(item: Item) to add an item to the cart.
-//    - A function totalPrice(discountCode: String?) -> Double that
-//      calculates the total price. If a valid discount code
-//      "DISCOUNT10" is provided, apply a 10% discount to the total.
-//    - BONUS: Round down the result displayed to 2 decimal places.
+//    - A function addItem to add an Item to the cart.
+//    - A function totalPrice with optional parameter discountCode
+//      that returns the total price.
+//      If the discount code "DISCOUNT10" is provided, apply a
+//      10% discount to the total.
+//    - Optional bonus: Label discountCode as withDiscount.
+//    - Optional bonus: Provide a default discountCode.
+//    - Optional bonus: Ensure cart doesn't exceed 5 items.
+//    - Optional bonus: Round result down to 2 decimal places.
 
 // <fill in your code here>
 
