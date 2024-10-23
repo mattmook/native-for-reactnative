@@ -10,6 +10,13 @@ import Foundation
 //   the total price.
 // - Properly format the output.
 
+// Helpful references:
+// - Swift VS TypeScript Comparison CheatSheet
+//   https://mesqueeb.github.io/SwiftVsTypeScript/
+// - Swift is like TypeScript
+//   https://alhazmy13.github.io/swift-is-like-typescript/
+// - Syntax Comparison: TypeScript vs Swift
+//   https://medium.com/@yankuan/7c94dfb2f7da
 
 
 
@@ -30,6 +37,7 @@ import Foundation
 //    - A function totalPrice(discountCode: String?) -> Double that
 //      calculates the total price. If a valid discount code "DISCOUNT10"
 //      is provided, apply a 10% discount to the total.
+//    - BONUS: Round down the result displayed to 2 decimal places.
 
 // <fill in your code here>
 
