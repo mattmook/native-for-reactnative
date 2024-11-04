@@ -29,10 +29,19 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "_deploymentTarget": "15.0"
+          }
+        }
+      ],
       "expo-router"
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "turboModules": true
     },
     "extra": {
       "eas": {
