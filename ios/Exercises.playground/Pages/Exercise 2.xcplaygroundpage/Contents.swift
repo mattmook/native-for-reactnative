@@ -11,6 +11,7 @@ import Foundation
 
 
 // 1. Edit the file modules/shopping-manager/index.ts
+//    These are the functions that the app will call.
 //    - Create an entry for getTotalPrice:
 //        export function getTotalPrice(): string {
 //          return ShoppingManagerModule.getTotalPrice();
