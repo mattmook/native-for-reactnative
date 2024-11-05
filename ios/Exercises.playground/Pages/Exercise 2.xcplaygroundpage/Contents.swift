@@ -7,6 +7,10 @@ import Foundation
 //   https://docs.expo.dev/modules/module-api/
 
 
+// You man need to execute the following to ensure things are setup first:
+// - npm install
+// - npx expo run:ios
+
 
 // 1. Create a new expo module
 //    - npx create-expo-module@latest --local

@@ -1,8 +1,6 @@
 import Foundation
 
-// Create a new expo module
-// - npx create-expo-module@latest --local
-//   Use the name shopping-manager
+// Call a real async function
 
 // Helpful references:
 // - API calls using Swift async/await and error handling
