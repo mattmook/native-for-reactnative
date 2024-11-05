@@ -17,6 +17,8 @@ import Foundation
 //   https://alhazmy13.github.io/swift-is-like-typescript/
 // - Syntax Comparison: TypeScript vs Swift
 //   https://medium.com/@yankuan/7c94dfb2f7da
+// - Swift 5.1 Cheat Sheet and Quick Reference
+//   https://koenig-media.raywenderlich.com/uploads/2020/12/RW-Swift-5.1-Cheatsheet-1.0.pdf
 
 
 
