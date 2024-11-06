@@ -7,20 +7,10 @@ import { ThemedView } from '@/components/ThemedView';
 import { useState } from 'react';
 import { useEffect } from 'react';
 
-import NativeShoppingManager from '../../specs/NativeShoppingManager';
-
-const totalPrice = NativeShoppingManager?.totalPrice() ?? "Not available";
-
 export default function HomeScreen() {
 
-const [totalPriceAsync, setTotalPriceAsync] = useState("Not available");
-
-NativeShoppingManager?.totalPriceAsync()?.then((result) => {
-setTotalPriceAsync(result)
- })
- .catch(() => {
- setTotalPriceAsync("Error")
- })
+  const [displayTotalPrice, setDisplayTotalPrice] = useState("Not available");
+  const [displayTotalPriceAsync, setDisplayTotalPriceAsync] = useState("Not available");
 
   return (
     <ParallaxScrollView
@@ -32,8 +22,9 @@ setTotalPriceAsync(result)
         />
       }>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Total price: { totalPrice }</ThemedText>
-        <ThemedText type="subtitle">Total price async: { totalPriceAsync }</ThemedText>
+        <ThemedText type="subtitle">Total price: { displayTotalPrice }</ThemedText>
+        <ThemedText type="subtitle">Total price async: { displayTotalPriceAsync }</ThemedText>
+        <ShoppingManagerView style={{ flex: 1, width: '100%' }} />
       </ThemedView>
     </ParallaxScrollView>
   );
