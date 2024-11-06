@@ -24,9 +24,10 @@ displayed a price synchronously and asynchronously using Swift. This Kotlin exer
     - Define a function called getTotalPrice and return "£2.99"
     - Define a function called getTotalPriceAsync, sleep for 5 seconds with `sleep(5) and return "£3.78"
 
-
 1.  Run the app:
     - npx expo run:android
+
+1.  Optional bonus: Use Kotlin Coroutines for getTotalPriceAsync
 
 ## FAQ
 
