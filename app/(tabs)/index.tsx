@@ -24,7 +24,6 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Total price: { displayTotalPrice }</ThemedText>
         <ThemedText type="subtitle">Total price async: { displayTotalPriceAsync }</ThemedText>
-        <ShoppingManagerView style={{ flex: 1, width: '100%' }} />
       </ThemedView>
     </ParallaxScrollView>
   );
