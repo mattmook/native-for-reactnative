@@ -13,6 +13,10 @@ Add Android support to the shopping-manager expo module we wrote in exercise 2
 This Kotlin exercise assumes we completed exercise 2 where we created a native module using the Expo Mdoule API and
 displayed a price synchronously and asynchronously using Swift. This Kotlin exercise assumes we've completed this.
 
+1.  Open the project in Android Studio
+    - File > Open…
+    - android i.e. in the root dir of our project
+    
 1.  In Android Studio, locate the ShoppingManagerModule code in
     - shopping-manager > kotlin+java > expo.modules.shoppingmanager
 
@@ -23,3 +27,10 @@ displayed a price synchronously and asynchronously using Swift. This Kotlin exer
 
 1.  Run the app:
     - npx expo run:android
+
+## FAQ
+
+1.  A problem occurred starting process 'command 'node'
+    - Open Settings
+    - Navigate to Build, Execution, Deployment > Build Tools > Gradle
+    - Change the Gradle JDK
